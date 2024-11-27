@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F58E960B2CCCF41400D3331B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E960A2CCCF41400D3331B /* AppDelegate.swift */; };
+		F58E960D2CCCF41400D3331B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E960C2CCCF41400D3331B /* SceneDelegate.swift */; };
+		F58E96122CCCF41400D3331B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58E96102CCCF41400D3331B /* Main.storyboard */; };
+		F58E96142CCCF41500D3331B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F58E96132CCCF41500D3331B /* Assets.xcassets */; };
+		F58E96172CCCF41500D3331B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F58E96152CCCF41500D3331B /* LaunchScreen.storyboard */; };
+		F58E96232CCCF49A00D3331B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E96222CCCF49A00D3331B /* Constants.swift */; };
+		F58E96282CCCF54900D3331B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E96272CCCF54900D3331B /* APIManager.swift */; };
+		F58E962B2CCCF5AC00D3331B /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E962A2CCCF5AC00D3331B /* UIImageView + Extension.swift */; };
+		F58E962E2CCCF70500D3331B /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F58E962D2CCCF70500D3331B /* Kingfisher */; };
+		F58E96302CCCF80800D3331B /* PlayerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E962F2CCCF80800D3331B /* PlayerListViewController.swift */; };
+		F58E963A2CCCF8EA00D3331B /* PlayerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E96392CCCF8EA00D3331B /* PlayerListModel.swift */; };
+		F58E963C2CCCF94000D3331B /* PlayerMatchHistoryMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E963B2CCCF94000D3331B /* PlayerMatchHistoryMode.swift */; };
+		F58E963E2CCCF99D00D3331B /* PlayerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E963D2CCCF99D00D3331B /* PlayerListViewModel.swift */; };
+		F58E964C2CCD035900D3331B /* PlayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E964A2CCD035900D3331B /* PlayerTableViewCell.swift */; };
+		F58E964D2CCD035900D3331B /* PlayerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58E964B2CCD035900D3331B /* PlayerTableViewCell.xib */; };
+		F58E964F2CCD06EC00D3331B /* PlayerMatchHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E964E2CCD06EC00D3331B /* PlayerMatchHistoryViewController.swift */; };
+		F58E96522CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E96502CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.swift */; };
+		F58E96532CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F58E96512CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.xib */; };
+		F58E96552CCD121100D3331B /* PlayerHistoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F58E96542CCD121100D3331B /* PlayerHistoryViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F58E96072CCCF41400D3331B /* Flipkart_StarWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flipkart_StarWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F58E960A2CCCF41400D3331B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F58E960C2CCCF41400D3331B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F58E96112CCCF41400D3331B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F58E96132CCCF41500D3331B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F58E96162CCCF41500D3331B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F58E96182CCCF41500D3331B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F58E96222CCCF49A00D3331B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F58E96272CCCF54900D3331B /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		F58E962A2CCCF5AC00D3331B /* UIImageView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		F58E962F2CCCF80800D3331B /* PlayerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewController.swift; sourceTree = "<group>"; };
+		F58E96392CCCF8EA00D3331B /* PlayerListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListModel.swift; sourceTree = "<group>"; };
+		F58E963B2CCCF94000D3331B /* PlayerMatchHistoryMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMatchHistoryMode.swift; sourceTree = "<group>"; };
+		F58E963D2CCCF99D00D3331B /* PlayerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerListViewModel.swift; sourceTree = "<group>"; };
+		F58E964A2CCD035900D3331B /* PlayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTableViewCell.swift; sourceTree = "<group>"; };
+		F58E964B2CCD035900D3331B /* PlayerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerTableViewCell.xib; sourceTree = "<group>"; };
+		F58E964E2CCD06EC00D3331B /* PlayerMatchHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMatchHistoryViewController.swift; sourceTree = "<group>"; };
+		F58E96502CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerMatchHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		F58E96512CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlayerMatchHistoryTableViewCell.xib; sourceTree = "<group>"; };
+		F58E96542CCD121100D3331B /* PlayerHistoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerHistoryViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F58E96042CCCF41400D3331B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E962E2CCCF70500D3331B /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F58E95FE2CCCF41400D3331B = {
+			isa = PBXGroup;
+			children = (
+				F58E96092CCCF41400D3331B /* Flipkart_StarWar */,
+				F58E96082CCCF41400D3331B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F58E96082CCCF41400D3331B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96072CCCF41400D3331B /* Flipkart_StarWar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F58E96092CCCF41400D3331B /* Flipkart_StarWar */ = {
+			isa = PBXGroup;
+			children = (
+				F58E961E2CCCF43E00D3331B /* Application */,
+				F58E961F2CCCF45900D3331B /* Helper */,
+				F58E96292CCCF59000D3331B /* Extension */,
+				F58E96242CCCF4B000D3331B /* Storyboard */,
+				F58E96212CCCF47A00D3331B /* Constants */,
+				F58E96202CCCF46A00D3331B /* Screens */,
+				F58E96132CCCF41500D3331B /* Assets.xcassets */,
+				F58E96182CCCF41500D3331B /* Info.plist */,
+			);
+			path = Flipkart_StarWar;
+			sourceTree = "<group>";
+		};
+		F58E961E2CCCF43E00D3331B /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F58E960A2CCCF41400D3331B /* AppDelegate.swift */,
+				F58E960C2CCCF41400D3331B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F58E961F2CCCF45900D3331B /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96272CCCF54900D3331B /* APIManager.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F58E96202CCCF46A00D3331B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96312CCCF81D00D3331B /* PlayerList */,
+				F58E96322CCCF82900D3331B /* PlayerMatchHistory */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		F58E96212CCCF47A00D3331B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96222CCCF49A00D3331B /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		F58E96242CCCF4B000D3331B /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96152CCCF41500D3331B /* LaunchScreen.storyboard */,
+				F58E96102CCCF41400D3331B /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		F58E96292CCCF59000D3331B /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F58E962A2CCCF5AC00D3331B /* UIImageView + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F58E96312CCCF81D00D3331B /* PlayerList */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96332CCCF84200D3331B /* Model */,
+				F58E96342CCCF84E00D3331B /* View */,
+				F58E96352CCCF85000D3331B /* ViewModel */,
+			);
+			path = PlayerList;
+			sourceTree = "<group>";
+		};
+		F58E96322CCCF82900D3331B /* PlayerMatchHistory */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96362CCCF86500D3331B /* Model */,
+				F58E96372CCCF86900D3331B /* View */,
+				F58E96382CCCF86D00D3331B /* ViewModel */,
+			);
+			path = PlayerMatchHistory;
+			sourceTree = "<group>";
+		};
+		F58E96332CCCF84200D3331B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96392CCCF8EA00D3331B /* PlayerListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F58E96342CCCF84E00D3331B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F58E962F2CCCF80800D3331B /* PlayerListViewController.swift */,
+				F58E964A2CCD035900D3331B /* PlayerTableViewCell.swift */,
+				F58E964B2CCD035900D3331B /* PlayerTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F58E96352CCCF85000D3331B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F58E963D2CCCF99D00D3331B /* PlayerListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F58E96362CCCF86500D3331B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F58E963B2CCCF94000D3331B /* PlayerMatchHistoryMode.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F58E96372CCCF86900D3331B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F58E964E2CCD06EC00D3331B /* PlayerMatchHistoryViewController.swift */,
+				F58E96502CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.swift */,
+				F58E96512CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F58E96382CCCF86D00D3331B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F58E96542CCD121100D3331B /* PlayerHistoryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F58E96062CCCF41400D3331B /* Flipkart_StarWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F58E961B2CCCF41500D3331B /* Build configuration list for PBXNativeTarget "Flipkart_StarWar" */;
+			buildPhases = (
+				F58E96032CCCF41400D3331B /* Sources */,
+				F58E96042CCCF41400D3331B /* Frameworks */,
+				F58E96052CCCF41400D3331B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flipkart_StarWar;
+			packageProductDependencies = (
+				F58E962D2CCCF70500D3331B /* Kingfisher */,
+			);
+			productName = Flipkart_StarWar;
+			productReference = F58E96072CCCF41400D3331B /* Flipkart_StarWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F58E95FF2CCCF41400D3331B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					F58E96062CCCF41400D3331B = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = F58E96022CCCF41400D3331B /* Build configuration list for PBXProject "Flipkart_StarWar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F58E95FE2CCCF41400D3331B;
+			packageReferences = (
+				F58E962C2CCCF70500D3331B /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F58E96082CCCF41400D3331B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F58E96062CCCF41400D3331B /* Flipkart_StarWar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F58E96052CCCF41400D3331B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E96532CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.xib in Resources */,
+				F58E964D2CCD035900D3331B /* PlayerTableViewCell.xib in Resources */,
+				F58E96172CCCF41500D3331B /* LaunchScreen.storyboard in Resources */,
+				F58E96142CCCF41500D3331B /* Assets.xcassets in Resources */,
+				F58E96122CCCF41400D3331B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F58E96032CCCF41400D3331B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F58E963C2CCCF94000D3331B /* PlayerMatchHistoryMode.swift in Sources */,
+				F58E963A2CCCF8EA00D3331B /* PlayerListModel.swift in Sources */,
+				F58E964C2CCD035900D3331B /* PlayerTableViewCell.swift in Sources */,
+				F58E96522CCD089C00D3331B /* PlayerMatchHistoryTableViewCell.swift in Sources */,
+				F58E963E2CCCF99D00D3331B /* PlayerListViewModel.swift in Sources */,
+				F58E962B2CCCF5AC00D3331B /* UIImageView + Extension.swift in Sources */,
+				F58E964F2CCD06EC00D3331B /* PlayerMatchHistoryViewController.swift in Sources */,
+				F58E96302CCCF80800D3331B /* PlayerListViewController.swift in Sources */,
+				F58E960B2CCCF41400D3331B /* AppDelegate.swift in Sources */,
+				F58E96282CCCF54900D3331B /* APIManager.swift in Sources */,
+				F58E960D2CCCF41400D3331B /* SceneDelegate.swift in Sources */,
+				F58E96552CCD121100D3331B /* PlayerHistoryViewModel.swift in Sources */,
+				F58E96232CCCF49A00D3331B /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F58E96102CCCF41400D3331B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58E96112CCCF41400D3331B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F58E96152CCCF41500D3331B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F58E96162CCCF41500D3331B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F58E96192CCCF41500D3331B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F58E961A2CCCF41500D3331B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F58E961C2CCCF41500D3331B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZWGW92HTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flipkart_StarWar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Flipkart-StarWar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F58E961D2CCCF41500D3331B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8ZWGW92HTU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Flipkart_StarWar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Learning.Flipkart-StarWar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F58E96022CCCF41400D3331B /* Build configuration list for PBXProject "Flipkart_StarWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58E96192CCCF41500D3331B /* Debug */,
+				F58E961A2CCCF41500D3331B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F58E961B2CCCF41500D3331B /* Build configuration list for PBXNativeTarget "Flipkart_StarWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F58E961C2CCCF41500D3331B /* Debug */,
+				F58E961D2CCCF41500D3331B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F58E962C2CCCF70500D3331B /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F58E962D2CCCF70500D3331B /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F58E962C2CCCF70500D3331B /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F58E95FF2CCCF41400D3331B /* Project object */;
+}
